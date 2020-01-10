@@ -50,7 +50,8 @@ try:
     from scipy.maxentropy import logsumexp
 except ImportError:
     # maxentropy has been removed in recent releases, logsumexp now in misc
-    from scipy.misc import logsumexp
+    #JT: nu blijkbaar verplaatst naar scipy.special
+    from scipy.special import logsumexp
 
 
 logger = logging.getLogger('gensim.models.ldamodel')
