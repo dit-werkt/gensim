@@ -166,7 +166,7 @@ setup(
     ],
     install_requires=[
         'numpy >= 1.3',
-        'scipy == 0.7.0',
+        'scipy == 0.8.0',
         'six >= 1.5.0',
         'smart_open >= 1.2.1',
     ],
